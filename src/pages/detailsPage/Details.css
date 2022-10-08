@@ -1,0 +1,23 @@
+.details-section{
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+.img-details-poster img{
+    border-radius: 20px;
+}
+.genres{
+    background-color: #17a2b8;
+    color: #fff;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    display: inline-block;
+}
+.language{
+    color: #FFC107;
+}
+.vote-details span{
+    color: #198754;
+}
+.vote-count-details span{
+    color: #0DCAF0;
+}

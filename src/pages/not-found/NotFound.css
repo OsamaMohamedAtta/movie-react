@@ -1,0 +1,22 @@
+.not-found-img{
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+}
+.not-found-img img{
+    border-radius: 20px;
+}
+/* media screen device
+------------------------ */
+/* for medium device */
+@media (max-width: 991px) {
+    .not-found-img{
+        width: 80%
+    }
+}
+/* for small device */ 
+@media (max-width: 767px) {
+    .not-found-img{
+        width: 95%
+    }
+}

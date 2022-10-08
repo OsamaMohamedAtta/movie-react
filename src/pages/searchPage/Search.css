@@ -1,0 +1,22 @@
+.serach-section{
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    height: 100%;
+    width: 100%;
+}
+.skeleton-img-search{
+    width: 100%;
+    height: 380px;
+}
+/* for medium device */
+@media (max-width: 991px) {
+    .skeleton-img-search{
+        height: 320px !important;
+    }
+}
+/* for small device */
+@media (max-width: 767px) {
+    .skeleton-img-search{
+        height: 520px !important;
+    }
+}

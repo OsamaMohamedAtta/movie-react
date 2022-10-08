@@ -1,0 +1,8 @@
+.profile-section{
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+.profile-info span{
+    color: #0DCAF0;
+}

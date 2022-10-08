@@ -1,0 +1,5 @@
+.skeleton-img-media{  /* skeleton-img-media class is for movies,tv and people page skeleton loaded */
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}

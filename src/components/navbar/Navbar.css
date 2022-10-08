@@ -1,0 +1,55 @@
+.navbar{
+    background-color: #263B72;
+    opacity: 0.8;
+    z-index: 9999;
+}
+.navbar-nav a{
+    font-size: 1.1rem;
+}
+.toggler-icon{
+    width: 25px;
+    height: 2px;
+    margin: 0.4rem 0rem;
+    background-color: #949cb0;
+}
+.nav-icon li:nth-child(1) a{
+    color: #17a2b8;
+    cursor: pointer;
+}
+.nav-menu li a
+,.fa-facebook
+,.fa-linkedin
+,.fa-github{
+    transition: 0.5s;
+}
+.nav-menu li a:hover
+,.fa-facebook:hover
+,.fa-linkedin:hover
+,.fa-github:hover{
+    color: #17a2b8 !important;
+    transition: 0.5s;
+}
+.nav-icon li:nth-child(3) a,
+.nav-icon li:nth-child(4) span{
+    font-size: 1.1rem;
+    color: #0DCAF0;
+    cursor: pointer;
+}
+.nav-icon li:nth-child(4) .arrow{
+    transition: 0.5s;
+}
+.nav-icon li:nth-child(4):hover .arrow{
+    color: #17a2b8 !important;
+    transition: 0.5s;
+}
+.active{
+    color: #17a2b8 !important;
+}
+/* media screen device
+------------------------ */
+/* for medium device */
+@media (max-width: 991px) {
+    .nav-icon li:nth-child(4){
+        margin-top: 0.5rem;
+    }
+}

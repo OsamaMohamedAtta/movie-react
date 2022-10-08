@@ -1,0 +1,53 @@
+.home-section{
+    padding: 6rem 0rem;
+}
+.section-home-title{
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.section-home-title::before{
+    content: '';
+    position: absolute;
+    width: 25%;
+    height: 1px;
+    left: 0;
+    top: 0;
+    background-color: #949cb0;
+}
+.section-home-title{
+    border-bottom: solid 1px #949cb0;
+    margin-top: 4.5rem;
+}
+.section-home-title h2{
+    color: #fff;
+    margin: 0.8rem 0rem;
+    font-weight: bold;
+}
+/* media screen device
+------------------------ */
+/* for medium device */
+@media (max-width: 991px) {
+    .nav-menu li:nth-child(1){
+        margin-top: 0.5rem;
+    }
+    .nav-icon li:nth-child(1),
+    .nav-icon li:nth-child(3){
+        margin: 0.5rem 0rem;
+    }
+    .social-icon{
+        margin-left: 0.5rem;
+    }
+    .fa-facebook{
+        margin-left: 0rem;
+    }
+}
+/* for small device */ 
+@media (max-width: 767px) {
+    .skeleton-img-trending{
+        height: 550px !important;
+    }
+    .skeleton-img{
+        height: 520px !important;
+    }
+}

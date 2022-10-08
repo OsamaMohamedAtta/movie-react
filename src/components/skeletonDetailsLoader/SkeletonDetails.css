@@ -1,0 +1,37 @@
+.skeleton-img-details{
+    width: 100%;
+    height: 550px;
+    border-radius: 20px;
+}
+.skeleton-h2{
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+}
+.skeleton-span{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+.skeleton-language{
+    width: 40px;
+    height: 25px;
+    border-radius: 5px;
+}
+.skeleton-released,
+.skeleton-vate,
+.skeleton-overview{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+.skeleton-overview-line1,
+.skeleton-overview-line2,
+.skeleton-overview-line3{
+    width: 90%;
+    height: 25px;
+    border-radius: 5px;
+}
+.skeleton-overview-line3{
+    width: 60%;
+}
